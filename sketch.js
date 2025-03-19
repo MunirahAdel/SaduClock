@@ -273,7 +273,7 @@ function drawIndividualGrids() {
         if (timeKey === "Minutes") {
         fill(255, 0, 0);
         noStroke();
-        ellipse(x, y-210, 10, 5);
+        ellipse(x, y-255, 10, 5);
       }
       
       // Add Time Labels
