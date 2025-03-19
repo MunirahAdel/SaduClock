@@ -3,13 +3,13 @@ let parts = [24, 60, 60]; // Time increments
 
 let startX = -1000; // Start of the line
 let endX; // End of the line (adjusted in setup)
-let numLines = 100; // Number of lines
+let numLines = 300; // Number of lines
 let lineSpacing = 10; // Space between lines
 let noiseOffset = 0; // Used for Perlin noise variation
 
 
 let w = 200; // Height for each time unit (now a “row”)
-let margin = 50; // Margin from left and right
+let margin = 30; // Margin from left and right
 let h;
 let lineWidth;
 let w_, half_w, offset_y;
