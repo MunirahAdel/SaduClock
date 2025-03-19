@@ -131,7 +131,7 @@ drawVerticalWavesTwo()
 // ─── Draw Time Labels Separately ─────────────────────────────
 function drawTimeLabels(x, y, timeValue, timeKey) {
   textAlign(CENTER, CENTER);
-  textSize(14);
+  textSize(10);
   fill(255); // White text
   noStroke();
 
@@ -172,7 +172,7 @@ let hourT = hourPositions[i] / (parts[0] - 1);
 }
 
 
-// ─── Draw working hours ────────────────────
+// ─── Draw sunrise and sunset ────────────────────
 function drawVerticalWavesTwo() {
   let hourPositions = [6, 18]; // Specific hour points
   let waveAmplitude = 2;  // Adjust wave height
